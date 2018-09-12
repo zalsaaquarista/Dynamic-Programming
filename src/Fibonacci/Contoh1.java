@@ -50,6 +50,15 @@ public class Contoh1 {
         System.out.println("Bilangan Fibonacci ke-" + n + " : " + hasil);
     }
     
+    public static void main(String[] args)
+    {
+        String identitas = "Zalsa Aquarista Kusumaningtyas / X RPL 3 / 39";
+        tampilJudul(identitas);
+        int n = tampilInput();
+        BigInteger hasil = fibo(n);
+        tampilHasil(n, hasil);
+    }
+    
     
     
 }
