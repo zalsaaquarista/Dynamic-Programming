@@ -35,6 +35,15 @@ public class Tugas1 {
         }
         System.out.println("Banyak uang 2000: " + b);
         
+        int c = 0;
+        while(uang >= 1000)
+        {
+            uang = uang - 1000;
+            c++;
+        }
+        System.out.println("Banyak uang 1000: " + c);
+        
+        
     
     }
 }
