@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Fibonacci;
+/**
+ *
+ * @author ASUS
+ */
+import java.util.Scanner;
+public class Tugas2 {
+    public static void main(String[] args)
+    {
+        Scanner baca = new Scanner(System.in);
+        
+        double total;
+        
+        System.out.println("1. A");
+        System.out.println("2. B");
+        System.out.println("3. C");
+        System.out.println("4. D");
+        System.out.println("5. E");
+        System.out.print("Jenis Barang (1/2/3/4/5): ");
+        double barang = baca.nextDouble();
+        
+        System.out.print("Masukkan berat barang: ");
+        double berat = baca.nextDouble();
+        
+        System.out.println(" ");
+    }
+}
