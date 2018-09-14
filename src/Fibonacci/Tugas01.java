@@ -45,4 +45,11 @@ public class Tugas01 {
         }
         System.out.println("Banyak uang 1000: " + c);
         
+        int d = 0;
+        while(uang >= 500)
+        {
+            uang = uang - 500;
+            d++;
+        }
+        System.out.println("Banyak uang 500: " + d);
 }
