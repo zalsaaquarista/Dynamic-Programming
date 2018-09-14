@@ -29,4 +29,12 @@ public class Tugas01 {
         }
         System.out.println("Banyak uang 5000: " + a);
         
+        int b = 0;
+        while(uang >= 2000)
+        {
+            uang = uang - 2000;
+            b++;
+        }
+        System.out.println("Banyak uang 2000: " + b);
+        
 }
