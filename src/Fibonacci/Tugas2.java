@@ -28,5 +28,19 @@ public class Tugas2 {
         double berat = baca.nextDouble();
         
         System.out.println(" ");
+        
+        if(barang == 1)
+        {
+            if(berat % 4 == 0)
+            {
+                total = berat/4*5000;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+            else
+            {
+                total = (5000/4)*berat;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+        }  
     }
 }
