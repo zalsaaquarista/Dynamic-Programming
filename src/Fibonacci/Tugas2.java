@@ -84,5 +84,23 @@ public class Tugas2 {
                 System.out.println("Total yang harus dibayar: " + total);
             }
         }
+        
+        else if(barang == 5)
+        {
+            if(berat % 7 == 0)
+            {
+                total = berat/7*10000;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+            else
+            {
+                total = (10000/7)*berat;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+        }
+                      
     }
 }
+
+    
+
