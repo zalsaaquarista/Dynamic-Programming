@@ -70,5 +70,19 @@ public class Tugas2 {
                 System.out.println("Total yang harus dibayar: " + total);
             }
         }
+        
+        else if(barang == 4)
+        {
+            if(berat % 3 == 0)
+            {
+                total = berat/3*3000;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+            else
+            {
+                total = (3000/3)*berat;
+                System.out.println("Total yang harus dibayar: " + total);
+            }
+        }
     }
 }
