@@ -51,7 +51,16 @@ public class Tugas1 {
         }
         System.out.println("Banyak uang 500: " + d);
         
-        
-    
+        int e = 0;
+        while(uang >= 100)
+        {
+            uang = uang - 100;
+            e++;
+        }
+        System.out.println("Banyak uang 100: " + e);
     }
 }
+        
+    
+
+
